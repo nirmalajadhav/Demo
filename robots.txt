@@ -1,0 +1,5 @@
+User-Agent: *
+Disallow: /v5
+Disallow: /cometchat
+Disallow: /chat
+Sitemap: http://www.cometchat.com/sitemap.xml

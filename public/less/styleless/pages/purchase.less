@@ -1,0 +1,468 @@
+#purchase
+{
+   .comodo
+  {
+      float:right;
+      width: 10%;
+      p
+      {
+        float:right;
+        padding-top: 15px;
+      }
+  }
+  .greyout
+  {
+    opacity:0.5;
+  }
+  .purchase_head
+  {
+     float:left;
+     width: 90%;
+  }
+  .divider
+  {
+    padding-bottom:20px;  
+  }
+  .purchase_plan
+  {
+    text-align:center;
+    padding-top:45px;
+    font-family: "proxima-nova",sans-serif;
+    #big
+    {
+      margin-top: -20px;
+      .edition_feat
+      {
+        margin-bottom: 20px;
+        margin-top: 40px;
+      }
+      .edition_price
+      {
+        .priceblock
+        {
+          .amt
+          {
+            font-size: 72px;
+          }
+		  
+          .dollar
+          {
+            font-size:22px;
+            top: 7px;
+          }
+        }
+      }
+    }
+    .edition_box
+    {
+      border-radius:5px;
+      background: #eee;
+      padding-bottom: 30px;
+      margin-bottom: 50px;
+       #pro_font
+        {
+          h3
+          {
+            font-size:25px;
+          }
+        }
+      
+      .edition_name
+      {
+        background:@blueband;
+        padding:5px 0px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        h3
+        {
+           font-size:22px;
+           color:#fff;
+        }
+      }  
+      }
+      .edition_liner
+      {
+        p
+        {
+          font-weight: bold;
+          padding: 20px 0 0 0;
+          font-size: 16px;
+        }
+        #popular
+        {
+          font-size:19px;  
+        }
+      }
+      .edition_feat
+      {
+        font-size: 14px;
+        margin-bottom:15px;
+        padding:5px 5px;
+        a
+        {
+          display:block;
+          margin:0px 0px 5px;
+          &:hover
+          {
+            text-decoration: none;
+            color: #005580;
+             text-decoration: none;
+          }
+        }
+         
+      }
+      .edition_price
+      { 
+        .priceblock
+        {
+          position:relative; 
+          max-width: 160px;
+          margin: 0px auto;
+          .dollar
+          {
+            font-size:19px;
+            position:absolute;
+            top:6px;
+            left: 0px;
+          }
+          .only
+          {
+            font-size:19px;
+          }
+          .amt
+          {
+            font-weight:400;
+            padding:0px;
+            margin:0px;
+            font-size: 60px;
+            line-height: 1.50em;
+          }
+        }
+        
+      }
+      .buy_edition
+      {
+        text-align:center;
+        margin-top:20px;
+        .button
+        {
+          display: inline-block;
+        }
+      }
+      .gap
+      {
+        padding-bottom:30px;
+      }
+  }
+  .safe{
+    margin-top: 50px;
+    .lock
+    {
+      margin-top:30px;
+    }
+  }
+  .faq{
+    background: #F0F0ED;
+    padding-bottom:50px;
+    .faq_head{
+      padding:40px 0;
+      h4{
+      text-align:center;
+      }
+    }
+    .faq_cont
+    {
+      padding:0px;
+     .question
+     {
+        p{
+      font-size: 17px;
+      line-height: 1.35;
+      color: #696f74;
+      }
+    }
+    .answer{
+      p{
+        padding-top:0px;
+      }
+    }
+  }
+  }
+  #addonslink
+  {
+     margin-bottom:50px;
+    a
+    {
+      font-family: "proxima-nova", sans-serif;
+      font-weight: 700;
+      color: #2980b9;
+      font-size: 18px;
+      &:hover
+      {
+        text-decoration: none;
+        color: #d94e33;
+      }
+    }
+  }
+	.coupon, .nocoupon
+	{
+		display:none;
+	}
+	.discounted{
+	color: #D94E33;  
+	}
+	
+}
+    /*coupon*/
+   .nodiscount h4
+   {
+     padding: 20px;     
+   }
+ .discount .ccode
+ {
+    height: 30px;
+    font-family: "proxima-nova",sans-serif;
+    font-size: 16px;
+ } 
+.add_ons .addon :last-child.error-msg
+ {
+   color: #FF0000;
+  font-size: 14PX;
+  font-weight: normal;
+ }
+ .discountbutton input
+ {
+     display: block;
+    background: #d94e33;
+    padding: 12px 50px;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 1px;
+    -webkit-border-radius: 6px 6px 6px 6px;
+    -moz-border-radius: 6px 6px 6px 6px;
+    border-radius: 6px 6px 6px 6px;
+    text-decoration: none;
+    margin: 20px auto;
+   display: block;
+   border: 0;
+   &:hover{
+     -webkit-transition: 0.50s;
+    -moz-transition: 0.25s;
+    -o-transition: 0.25s;
+    transition: 0.50s;
+    background: #bb422b;
+    }
+    &:focus
+    {
+      outline: -webkit-focus-ring-color auto 0px;
+    }
+ }
+/*for prettyphoto*/
+#popup
+{
+  font-family: "proxima-nova",sans-serif;
+}
+  .head_basic
+    {
+      text-align:center;
+      font-size: 2.4em;
+      color: white;
+      background:#607082;
+      padding: 0.4em;
+      border-radius: 3px 3px 0 0;
+    }
+ .content 
+ {
+   p
+   {
+     text-align:center;
+     font-weight:bold;
+   }
+   .proccedbtn
+   {
+     text-align: center;
+    margin: 15px auto;
+    max-width: 180px;
+    a
+    {
+      margin-top:0px;
+      &:hover
+      {
+        color:#ffffff;
+      }
+    }
+   }
+ }
+.add_ons
+{
+  font-family: "proxima-nova",sans-serif;
+    .addon
+    {
+      padding-top: 6px;
+      padding-bottom:20px;
+	  text-align:center;
+      div
+      {
+        a
+        {
+          font-weight:200 !important;
+          text-decoration:none;
+          color: #545454;
+        }
+      }
+      .plus
+      {
+        font-size: 22px;
+        font-weight: bold;
+        color: #545454;
+      }
+       :last-child
+      {
+        font-weight: bold;
+        color: #545454;
+        font-size: 16px;
+      }
+      .addon_name
+      {
+        font-size: 17.5px;
+        color: #545454;
+        text-align:center;
+      }
+      ul{
+        width: 450px;
+        overflow: hidden;
+        margin: 0 auto;
+        li{
+          float: left;
+          .imgcont{
+            img{
+              height: 50px;
+            }
+          }
+          input[type="radio"]
+          {
+            margin-top: 0px;
+          }
+        }
+        .pads
+        {
+          margin: 0px 50px;
+        }
+      }
+    }
+    .purchase_total
+    {
+      padding-top:30px;
+    }
+    .total
+    {
+      color: #545454;
+      font-weight: bold;
+      font-size: 17.5px;
+    }
+    .payment_modes
+    {
+      padding-top:25px;
+    }
+  }
+.mprice 
+{
+  color: #333;
+  text-align:center;
+  .mamnt 
+  {
+    font-size: 75px;
+  }
+  .msup
+  {
+    font-family: "proxima-nova",sans-serif;
+    position: absolute;
+    font-size: 24px;
+    left: 33%;
+  }
+}
+.add_ons 
+{
+  
+}
+.imgcont 
+{
+  text-align:center;
+  img
+  {
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    &:hover
+    {
+      opacity: .7;
+    }
+  }
+ 
+}
+.empty_box
+{
+  height: 20px;
+  margin-top: -10px !important;
+  padding-left:0px !important;
+}
+#success 
+{
+  .thankyou
+  {
+    margin-bottom: 35px;
+    text-align:center;
+    h2
+    {
+      font-size: 70px;
+    }
+  }
+  /*background: url('http://v5.cometchat.com/public/img/thankyou-bgd.png') no-repeat center !important;*/
+ h2
+ {
+   text-align:center;
+   font-size: 70px;
+   margin-bottom: 60px;
+   margin-top: 10px;
+ }
+  .info
+  {
+    h4
+    {
+      text-align:center;
+      span
+      {
+        font-weight:bold;
+      }
+    }
+  }
+ 
+}
+
+.upbuttonpro a
+{
+  padding: 12px 36px;
+}
+.loading-image
+{
+	opacity:0;
+	top: 145px;
+	left: 300px;
+	position: absolute;
+}
+#pp_full_res .pp_inline, #addons #pp_full_res .pp_inline, #upgrade #pp_full_res .pp_inline {
+text-align: center;
+}
+#purchase .purchase_plan .edition_price .priceblock .rupees
+{
+	font-size:20px !important;
+}
+#purchase .link-to-buypage
+{
+	text-align:right;
+	padding-top:4px;
+}
+.indiapage .container .purchase_plan
+{
+	padding-top: 11px!important;
+}

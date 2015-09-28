@@ -1,0 +1,196 @@
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    border: 0 none;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none outside none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.main {
+    margin: 0 auto;
+    width: 660px;
+}
+.varcontainer {
+    border-top: 1px dotted #CCCCCC;
+    padding-left: 10px;
+}
+.variables {
+    background-color: transparent;
+    clear: left;
+    color: #007C9C;
+    cursor: pointer;
+    float: left;
+    font-size: 11px;
+    padding: 9px 8px 5px 7px;
+    text-decoration: underline;
+    width: 85%;
+}
+.var {
+    color: #007C9C;
+    float: left;
+    font-family: verdana;
+    margin-bottom: 10px;
+}
+.vartitle {
+    color: #333333;
+    font-family: Verdana,sans-serif;
+    font-size: 11px;
+    line-height: 16px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.arrow {
+    float: left;
+    left: 400px;
+    opacity: 0;
+    position: absolute;
+    z-index: 213;
+}
+.arrow1 {
+    float: left;
+    left: 400px;
+    opacity: 0;
+    position: absolute;
+    z-index: 213;
+}
+#arr {
+    float: left;
+    z-index: 500;
+}
+.selectionbox {
+    background-color: transparent;
+    box-shadow: 0 0 3px 0 #FF4444, 0 0 2px 1px #222222;
+    display: none;
+    opacity: 1;
+    position: absolute;
+    z-index: 200;
+}
+.arrow .details {
+    background-color: white;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 0 1px #111111;
+    color: #2E3955;
+    display: none;
+    font-family: helvetica;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 13px;
+    padding: 1px 5px 2px;
+}
+.arrow1 .details {
+    background-color: white;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 0 1px #111111;
+    color: #2E3955;
+    display: none;
+    font-family: helvetica;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 13px;
+    margin-top: 12px;
+    max-width: 179px;
+    padding: 3px 7px 3px 20px;
+}
+.mar {
+    background-color: transparent;
+    height: 8px;
+    width: 14px;
+}
+.mar1 {
+    background-color: transparent;
+    height: 20px;
+    width: 30px;
+}
+.bar {
+    background: -moz-linear-gradient(left center , #B7DEED 0%, #71CEEF 36%, #21B4E2 67%, #B7DEED 98%) repeat scroll 0 0 transparent;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 40px;
+    margin: 0 auto;
+    width: 18px;
+}
+.pointer {
+    height: 20px;
+    margin: 0 auto;
+    width: 40px;
+}
+.ip {
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #71CEEF;
+    height: 0;
+    width: 0;
+}
+.image {
+    clear: left;
+    height: 314px;
+    margin: 0 auto;
+    position: relative;
+    width: 632px;
+}
+.variables:hover {
+    color: #004152;
+}
+.image1 {
+    border-left: 1px double black;
+    border-top: 1px double black;
+    display: none;
+    height: 100px;
+    overflow: hidden;
+    width: 100px;
+}
+.margin {
+    border-bottom: 1px dotted #CCCCCC;
+    clear: left;
+    color: #3A4346;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 0 15px;
+    width: 100%;
+}
+.margin1 {
+    border-bottom: 1px dotted #CCCCCC;
+    clear: left;
+    color: #3A4346;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 0 15px;
+    width: 100%;
+}
+.vartitle b {
+    font-style: italic;
+    font-weight: bold;
+}
+.hovered {
+    color: #004152;
+}
+.selected {
+    color: darkslateblue !important;
+}
+.imagecontainer {
+    border: 1px solid #999999;
+    float: left;
+    padding-bottom: 44px;
+    padding-top: 42px;
+}
